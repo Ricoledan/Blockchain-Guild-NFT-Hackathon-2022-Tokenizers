@@ -3,8 +3,7 @@ pragma solidity ^0.8.3;
 
 import "hardhat/console.sol";
 
-contract Quote {
-    // build vehicle data model
+contract VehicleHistory {
     struct Vehicle {
         uint256 price;
         int256 mileage;
@@ -18,6 +17,4 @@ contract Quote {
         bytes32 vin;
         uint256 stockNumber;
     }
-
-    constructor() {}
 }
