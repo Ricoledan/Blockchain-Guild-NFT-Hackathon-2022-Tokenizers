@@ -18,6 +18,10 @@ Daniel Medina, Phelippe Xavier Souza-Herod, Daniel Dan Jamsheedy, Ricardo Ledan,
 
 [Metamask Wallet](<https://metamask.io/>) is a crypto wallet that can be used in a web browser and on mobile devices to interact with the Ethereum blockchain. It allows you to run Ethereum Dapps (Decentralized Apps) right in your browser without running a full Ethereum node.
 
+### File Storage Client (Local)
+
+[IPFS Desktop](https://docs.ipfs.io/install/ipfs-desktop/) bundles an IPFS node, file manager, peer manager, and content explorer into a single, easy-to-use application.
+
 ## Technology Stack
 
 ### Web application framework
