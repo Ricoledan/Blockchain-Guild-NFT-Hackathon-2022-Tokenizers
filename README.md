@@ -1,5 +1,23 @@
 # Blockchain-Guild-NFT-Hackathon-2022-Tokenizers
 
+## Project Details
+
+TBA
+
+## Team Members
+
+Daniel Medina, Phelippe Xavier Souza-Herod, Daniel Dan Jamsheedy, Ricardo Ledan, Jens Pettersson
+
+## Prerequisites
+
+### Application Runtime Environment
+
+[Node.js](https://nodejs.org/en/) is an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
+
+### Wallet
+
+[Metamask Wallet](<https://metamask.io/>) is a crypto wallet that can be used in a web browser and on mobile devices to interact with the Ethereum blockchain. It allows you to run Ethereum Dapps (Decentralized Apps) right in your browser without running a full Ethereum node.
+
 ## Technology Stack
 
 ### Web application framework
@@ -18,13 +36,9 @@
 
 The [Ethers.js](https://docs.ethers.io/v5/single-page/) library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem.
 
-## Team Members
-
-Daniel Medina, Phelippe Xavier Souza-Herod, Daniel Dan Jamsheedy, Ricardo Ledan, Jens Pettersson
-
 ## Application Commands
 
-Run development server:
+Run development server (Nextjs):
 
 ```shell
 npm run dev
@@ -41,3 +55,27 @@ npx hardhat node
 node scripts/deploy.js
 npx hardhat help
 ```
+
+## Deploying Contracts to Local Network
+
+Create local network with 19 accounts
+
+```shell
+npx hardhat node
+```
+
+open a separate terminal window to deploy the contract to blockchain network.
+
+```shell
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+## Importing accounts into MetaMask for testing
+
+* Switch network to Localhost 8545
+* Click Import Account from accounts menu
+* Paste private key from account results from npx hardhat node command
+
+## Deploying to Network
+
+[Polygon](https://polygon.technology/) is a decentralised Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing on security.
