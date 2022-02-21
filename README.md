@@ -22,10 +22,22 @@ The [Ethers.js](https://docs.ethers.io/v5/single-page/) library aims to be a com
 
 Daniel Medina, Phelippe Xavier Souza-Herod, Daniel Dan Jamsheedy, Ricardo Ledan, Jens Pettersson
 
-## Getting Started
+## Application Commands
 
-First, run the development server:
+Run development server:
 
-```bash
+```shell
 npm run dev
+```
+
+## Hardhat Commands
+
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/deploy.js
+npx hardhat help
 ```
