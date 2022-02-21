@@ -1,6 +1,6 @@
 # Blockchain-Guild-NFT-Hackathon-2022-Tokenizers
 
-![image](../assets/../blockchain-guild-nft-hackathon-2022-tokenizers/assets/dealerdashboardexample.png)
+![image](https://github.com/Ricoledan/Blockchain-Guild-NFT-Hackathon-2022-Tokenizers/assets/dealerdashboardexample.png)
 
 ## Project Details
 
