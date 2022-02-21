@@ -7,7 +7,6 @@ import { nftaddress, nftmarketaddress } from '../config'
 
 import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
 import Market from '../artifacts/contracts/Market.sol/NFTMarket.json'
-import Image from 'next/image'
 
 export default function Home() {
   const [nfts, setNfts] = useState([])
@@ -78,7 +77,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {nfts.map((nft, i) => (
             <div key={i} className="border shadow rounded-xl overflow-hidden">
-              <Image src={nft.image} alt="NFT image" />
+              <img src={nft.image} />
               <div className="p-4">
                 <p
                   style={{ height: '64px' }}
