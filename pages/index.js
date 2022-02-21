@@ -2,12 +2,12 @@ import { ethers } from 'ethers'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Web3Modal from 'web3modal'
-import Image from 'next/image'
 
 import { nftaddress, nftmarketaddress } from '../config'
 
 import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
 import Market from '../artifacts/contracts/Market.sol/NFTMarket.json'
+import Image from 'next/image'
 
 export default function Home() {
   const [nfts, setNfts] = useState([])
