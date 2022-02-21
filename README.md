@@ -70,11 +70,14 @@ open a separate terminal window to deploy the contract to blockchain network.
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
+Above command should print out the addresses of the contracts that were deployed.
+Place references in config.js file (nftmartketaddress, nftaddress fields)
+
 ## Importing accounts into MetaMask for testing
 
 * Switch network to Localhost 8545
 * Click Import Account from accounts menu
-* Paste private key from account results from npx hardhat node command
+* Paste private key from account results (npx hardhat node command)
 
 ## Deploying to Network
 
